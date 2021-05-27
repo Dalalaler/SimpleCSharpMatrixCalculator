@@ -25,13 +25,10 @@ namespace SimpleCSharpMatrixCalculator
         private const string previousMatrixMessage = "The previous matrix is: ";
         private const string previousMatrixChoice = "Type \"*\" to work with previous matrix, or enter to type new matrix ";
 
-
-
         private static int previousArifmeticResult = 0;
         private static int?[,] previousMatrixResult;
 
         private static string inputtedMenuParameter;
-
         static void Main(string[] args)
         {
             Console.WriteLine(startMessage);
